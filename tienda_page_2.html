@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alameda Motor - Tu Gasolinera de Confianza</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css"> <!-- Enlace a la hoja de estilos -->
+</head>
+
+<body>
+
+  <!-- Barra de Navegación -->
+  <nav class="navbar navbar-expand-lg custom-navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Alameda Motor</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.php">Iniciar Sesión</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="register.php">Regístrate</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="valores.html">Nuestros Valores</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Servicios
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="tienda.html">Tienda</a>
+              <a class="dropdown-item" href="precios.html">Combustibles</a>
+              <a class="dropdown-item" href="carga_electricos.html">Carga de eléctricos</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Banner de Bienvenida -->
+  <section class="register-banner">
+    <div class="small-banner">
+      <h1>Bienvenidos a Alameda Motor</h1>
+      <p>Tu parada confiable en el camino, ofreciendo combustible de alta calidad y servicios excepcionales.</p>
+    </div>
+  </section>
+
+  <body>
+    <!--Menú-->
+    <div class="sorting-buttons-container">
+      <div>
+        <label for="price-sort">Ordenar por Precio:</label>
+        <select id="price-sort">
+          <option value="asc">Menor a Mayor</option>
+          <option value="desc">Mayor a Menor</option>
+        </select>
+      </div>
+      <div>
+        <label for="category-sort">Ordenar por Categoría:</label>
+        <select id="category-sort">
+          <option value="all">Todas</option>
+          <option value="maintenance">Mantenimiento</option>
+          <option value="mechanics">Mecánica</option>
+          <option value="tools">Herramientas</option>
+        </select>
+      </div>
+    </div>
+    <div class="products-grid">
+      <!-- Producto 1 -->
+      <div class="product-item">
+        <div class="product-image">
+          <!-- El espacio para la imagen del producto -->
+          <div class="temp-border">Imagen del Producto</div>
+        </div>
+        <div class="product-info">
+          <p class="product-name">Bombillas para faros.</p>
+          <p class="product-price">10,00€</p>
+        </div>
+      </div>
+      <!-- Repite la estructura del producto para los demás productos -->
+      <!-- Producto 2 -->
+      <div class="product-item">
+        <div class="product-image">
+          <!-- El espacio para la imagen del producto -->
+          <div class="temp-border">Imagen del Producto</div>
+        </div>
+        <div class="product-info">
+          <p class="product-name">Kit reparación de neumáticos.</p>
+          <p class="product-price">7,00€</p>
+        </div>
+      </div>
+      <!-- Repite la estructura del producto para los demás productos -->
+      <!-- Producto 3 -->
+      <div class="product-item">
+        <div class="product-image">
+          <!-- El espacio para la imagen del producto -->
+          <div class="temp-border">Imagen del Producto</div>
+        </div>
+        <div class="product-info">
+          <p class="product-name">Spray WD-40.</p>
+          <p class="product-price">$19.99</p>
+        </div>
+      </div>
+      <!-- Producto 4 -->
+      <div class="product-item">
+        <div class="product-image">
+          <!-- El espacio para la imagen del producto -->
+          <div class="temp-border">Imagen del Producto</div>
+        </div>
+        <div class="product-info">
+          <p class="product-name">Kit de cambio de neumáticos.</p>
+          <p class="product-price">40,00€</p>
+        </div>
+      </div>
+      <!-- Producto 5 -->
+      <div class="product-item">
+        <div class="product-image">
+          <!-- El espacio para la imagen del producto -->
+          <div class="temp-border">Imagen del Producto</div>
+        </div>
+        <div class="product-info">
+          <p class="product-name">Nombre del Producto</p>
+          <p class="product-price">$19.99</p>
+        </div>
+      </div>
+      <!-- Producto 6 -->
+      <div class="product-item">
+        <div class="product-image">
+          <!-- El espacio para la imagen del producto -->
+          <div class="temp-border">Imagen del Producto</div>
+        </div>
+        <div class="product-info">
+          <p class="product-name">Nombre del Producto</p>
+          <p class="product-price">$19.99</p>
+        </div>
+      </div>
+      <!-- Producto 7 -->
+      <div class="product-item">
+        <div class="product-image">
+          <!-- El espacio para la imagen del producto -->
+          <div class="temp-border">Imagen del Producto</div>
+        </div>
+        <div class="product-info">
+          <p class="product-name">Nombre del Producto</p>
+          <p class="product-price">$19.99</p>
+        </div>
+      </div>
+      <!-- Producto 8 -->
+      <div class="product-item">
+        <div class="product-image">
+          <!-- El espacio para la imagen del producto -->
+          <div class="temp-border">Imagen del Producto</div>
+        </div>
+        <div class="product-info">
+          <p class="product-name">Nombre del Producto</p>
+          <p class="product-price">$19.99</p>
+        </div>
+      </div>
+      <!-- Producto 9 -->
+      <div class="product-item">
+        <div class="product-image">
+          <!-- El espacio para la imagen del producto -->
+          <div class="temp-border">Imagen del Producto</div>
+        </div>
+        <div class="product-info">
+          <p class="product-name">Nombre del Producto</p>
+          <p class="product-price">$19.99</p>
+        </div>
+      </div>
+      <!-- Producto 10 -->
+      <div class="product-item">
+        <div class="product-image">
+          <!-- El espacio para la imagen del producto -->
+          <div class="temp-border">Imagen del Producto</div>
+        </div>
+        <div class="product-info">
+          <p class="product-name">Nombre del Producto</p>
+          <p class="product-price">$19.99</p>
+        </div>
+      </div>
+      <!-- Producto 11 -->
+      <div class="product-item">
+        <div class="product-image">
+          <!-- El espacio para la imagen del producto -->
+          <div class="temp-border">Imagen del Producto</div>
+        </div>
+        <div class="product-info">
+          <p class="product-name">Nombre del Producto</p>
+          <p class="product-price">$19.99</p>
+        </div>
+      </div>
+      <!-- Producto 12 -->
+      <div class="product-item">
+        <div class="product-image">
+          <!-- El espacio para la imagen del producto -->
+          <div class="temp-border">Imagen del Producto</div>
+        </div>
+        <div class="product-info">
+          <p class="product-name">Nombre del Producto</p>
+          <p class="product-price">$19.99</p>
+        </div>
+      </div>
+      <!-- Paginación -->
+      <!-- Agregado al final del div con clase "products-grid" en tu HTML -->
+      <div class="pagination">
+        <a href="tienda.html" class="pagination-link">Anterior</a>
+        <a href="tienda.html" class="pagination-link">1</a>
+        <a href="#" class="pagination-link active">2</a>
+        <a href="#" class="pagination-link">3</a>
+        <a href="#" class="pagination-link">Siguiente</a>
+      </div>
+
+      <!-- Chat Button -->
+      <!-- Botón de Soporte Rápido -->
+      <div class="support-button">
+        Soporte Rápido
+      </div>
+      <!-- Ventana de Soporte Rápido -->
+      <div class="support-window">
+        <div class="support-header">
+          Soporte Rápido
+          <span class="close-support">&times;</span>
+        </div>
+        <div class="support-messages"></div>
+        <div class="support-content">
+          <button class="back-to-options" style="display:none;">Volver a las opciones</button>
+          <div class="quick-help">
+            <h4>¿Cómo podemos ayudarte hoy?</h4>
+            <ul>
+              <li><button class="help-option" data-problem="account_issue">Problemas con mi cuenta</button></li>
+              <li><button class="help-option" data-problem="payment_issue">Problemas con el pago</button></li>
+              <li><button class="help-option" data-problem="technical_issue">Problemas técnicos</button></li>
+              <li><button class="help-option" data-problem="other_issue">Otros problemas</button></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Enlaces a JS de Bootstrap y dependencias aquí ... -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <script src="main.js"></script>
+  </body>
+
+</html>
